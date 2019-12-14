@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Language" content="zh-cn" />
+    <meta name="keywords" content="音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌,无损音乐,无损曲库" />
+    <meta name="description"
+        content="QQ音乐是腾讯公司推出的一款网络音乐服务产品，海量音乐在线试听、新歌热歌在线首发、歌词翻译、手机铃声下载、高品质无损音乐试听、海量无损曲库、正版音乐下载、空间背景音乐设置、MV观看等，是互联网音乐播放和下载的优选。" />
+    <meta name="mobile-agent" content="format==[html5];url=https://y.qq.com/m/index.html">
+    <meta name="applicable-device" content="pc">
+    <title>QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/playerStyle.css">
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/progress.js"></script>
+    <script src="./js/Lyric.js"></script>
+    <script src="./js/music.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/template-web.js"></script>
+    <script src="./js/playerModIndex.js"></script>
+   
+</head>
+
+<body>
+    <div class="mod_player_header">
+        <div class="mod_player_logo">
+            <h1>
+                <a href="#"></a>
+            </h1>
+        </div>
+
+        <div class="mod_player_login">
+            <div class="player_login__guide">
+                QQ音乐，千万高品质曲库尽享
+                <a href="javascript:;" class="player_login__guide_btn "><i
+                        class="player_login__guide_icon sprite"></i>客户端下载</a>
+            </div>
+            <ul class="mod_player_register">
+                <li>登录</li>
+                <li>设置</li>
+            </ul>
+        </div>
+    </div>
+    <div class=" mod_player_w mod_player_content ">
+        <div class="content_left">
+            <div class="content_toolbar">
+                <span class="content_toolbar_collect"><i></i>收藏</span>
+                <span class="content_toolbar_add"><i></i>添加到</span>
+                <span class="content_toolbar_download"><i></i>下载</span>
+                <span class="content_toolbar_delete"><i></i>删除</span>
+                <span class="content_toolbar_deleteAll"><i></i>清空列表</span>
+            </div>
+            
+           <div class="outContainer">
+             <div class="content_list " data-mcs-theme="minimal-dark">
+               
+                    <ul>
+                        <li class="list_title">
+                            <div class="list_check"></div>
+                            <div class="list_number"></div>
+                            <div class="list_name">歌曲</div>
+                            <div class="list_singer">歌手</div>
+                            <div class="list_time">时长</div>
+                        </li>
+                    </ul>
+                
+
+            </div>
+           </div>
+
+        </div>
+        <div class="content_right">
+            <div class="song_info">
+                <a href="javascript:;" class="song_info_pic">
+                    <img src="" alt="">
+                </a>
+                <div class="song_info_name">
+                    <a href="javascript:;"></a>
+                </div>
+                <div class="song_info_singer">
+                    <a href="javascript:;"></a>
+                </div>
+                <div class="song_info_album">
+                    <a href="javascript:;"></a>
+                </div>
+            </div>
+            <div class="song_lyric_container">
+                <ul class="song_lyric">
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <div class=" mod_player_footer ">
+        <div class=" footer_bar">
+            <a href="javascript:;" class="music_pre"></a>
+            <a href="javascript:;" class="music_play"></a>
+            <a href="javascript:;" class="music_next"></a>
+            <div class="music_progress_info">
+                <div class="music_progress_top">
+                    <span class="music_progress_name"></span>
+                    <span class="music_progress_time"></span>
+                </div>
+                <div class="music_progress_bar">
+                    <div class="music_progress_line">
+                        <div class="music_progress_dot"></div>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:;" class="music_mode"></a>
+            <a href="javascript:;" class="music_fav"></a>
+            <a href="javascript:;" class="music_down"></a>
+            <a href="javascript:;" class="music_comment"></a>
+            <a href="javascript:;" class="music_only"></a>
+            <div class="music_voice_info">
+                <a href="javascript:;" class="music_voice_icon"></a>
+                <div class="music_voice_bar">
+                    <div class="music_voice_line">
+                        <div class="music_voice_dot"></div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="mod_player_mask_bg"></div>
+    <div class="mod_player_mask"></div>
+    <!-- <div class="mod_player_only">
+        <div class="song_lyric_container">
+            <ul class="song_lyric">
+            </ul>
+        </div>
+    </div> -->
+    <audio src="" id='music'></audio>
+</body>
+<script id = 'musicInfoTemp' type="text/html">
+    <li class="list_music">
+        <div class="list_check"><i></i></div>
+        <div class="list_number">{{(index+1)}}</div>
+         <div class="list_name">{{name}}
+         <div class="list_menu">
+         <a href="javascript:;" title="播放" class="list_menu_play"></a>
+         <a href="javascript:;" title="添加"></a>
+        <a href="javascript:;" title="下载" ></a>
+        <a href="javascript:;" title="分享" ></a>
+        </div>
+        </div>
+        <div class="list_singer">{{singer}}</div>
+        <div class="list_time">
+         <span>{{time}}</span>
+        <a href="javascript:;" title="删除" class="list_menu_del"></a>
+        </div>
+        </li>
+</script>
+</html>

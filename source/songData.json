@@ -1,0 +1,104 @@
+
+ [
+     
+        {
+            "name":"体面",
+            "singer": "于文文",
+            "album": "体面",
+            "time": "04:42",
+            "link_url":"./source/体面.mp3",
+            "cover":"./source/体面.jpg",
+            "link_lrc":"./source/体面.txt"
+          },
+        {
+          "name":"告白气球",
+          "singer": "周杰伦",
+          "album": "周杰伦的床边故事",
+          "time": "03:35",
+          "link_url":"./source/告白气球.mp3",
+          "cover":"./source/告白气球.jpg",
+          "link_lrc":"./source/告白气球.txt"
+        },
+        {
+            "name":"凉凉",
+            "singer": "杨宗纬/张碧晨",
+            "album": "凉凉",
+            "time": "05:00",
+            "link_url":"./source/凉凉.mp3",
+            "cover":"./source/凉凉.jpg",
+            "link_lrc":"./source/凉凉.txt"
+          },
+          {
+            "name":"体面",
+            "singer": "于文文",
+            "album": "体面",
+            "time": "04:00",
+            "link_url":"./source/体面.mp3",
+            "cover":"./source/体面.jpg",
+            "link_lrc":"./source/体面.txt"
+          },
+        {
+          "name":"告白气球",
+          "singer": "周杰伦",
+          "album": "周杰伦的床边故事",
+          "time": "03:35",
+          "link_url":"./source/告白气球.mp3",
+          "cover":"./source/告白气球.jpg",
+          "link_lrc":"./source/告白气球.txt"
+        },
+        {
+          "name":"体面",
+          "singer": "于文文",
+          "album": "体面",
+          "time": "04:00",
+          "link_url":"./source/体面.mp3",
+          "cover":"./source/体面.jpg",
+          "link_lrc":"./source/体面.txt"
+        },
+      {
+        "name":"告白气球",
+        "singer": "周杰伦",
+        "album": "周杰伦的床边故事",
+        "time": "03:35",
+        "link_url":"./source/告白气球.mp3",
+        "cover":"./source/告白气球.jpg",
+        "link_lrc":"./source/告白气球.txt"
+      },
+        {
+            "name":"凉凉",
+            "singer": "杨宗纬/张碧晨",
+            "album": "凉凉",
+            "time": "05:00",
+            "link_url":"./source/凉凉.mp3",
+            "cover":"./source/凉凉.jpg",
+            "link_lrc":"./source/凉凉.txt"
+          },
+          {
+            "name":"体面",
+            "singer": "于文文",
+            "album": "体面",
+            "time": "04:00",
+            "link_url":"./source/体面.mp3",
+            "cover":"./source/体面.jpg",
+            "link_lrc":"./source/体面.txt"
+          },
+        {
+          "name":"告白气球",
+          "singer": "周杰伦",
+          "album": "周杰伦的床边故事",
+          "time": "03:35",
+          "link_url":"./source/告白气球.mp3",
+          "cover":"./source/告白气球.jpg",
+          "link_lrc":"./source/告白气球.txt"
+        },
+        {
+            "name":"凉凉",
+            "singer": "杨宗纬/张碧晨",
+            "album": "凉凉",
+            "time": "05:00",
+            "link_url":"./source/凉凉.mp3",
+            "cover":"./source/凉凉.jpg",
+            "link_lrc":"./source/凉凉.txt"
+          }
+    ]
+ 
